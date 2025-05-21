@@ -21,7 +21,7 @@ with st.container():
     col3, col4 = st.columns(2)
 
     with col3:
-        with open("experiencia_profesional.pdf", "rb") as file:
+        with open("experiencia-profesional.pdf", "rb") as file:
             btn = st.download_button(
                 label="📄 Experiencia Profesional",
                 data=file,
