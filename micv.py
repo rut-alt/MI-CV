@@ -10,9 +10,9 @@ with col1:
     st.image("rut.jpg", width=200)
 
 with col2:
-    st.title("Tu Nombre")
-    st.write("💼 Profesional de [tu especialidad]")
-    st.write("📧 tu.email@example.com")
+    st.title("RUT GONZÁLEZ")
+    st.write("💼 DATA ANALYST")
+    st.write("📧 rut.18.gonzalez@gmail.com")
 
 # ----- BOTONES DE DESCARGA -----
 st.subheader("Secciones del CV")
@@ -25,7 +25,7 @@ with st.container():
             btn = st.download_button(
                 label="📄 Experiencia Profesional",
                 data=file,
-                file_name="experiencia_profesional.pdf",
+                file_name="experiencia-profesional.pdf",
                 mime="application/pdf"
             )
 
