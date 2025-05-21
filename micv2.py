@@ -29,27 +29,10 @@ with st.container():
                 mime="application/pdf"
             )
 
-        with open("portfolio_datos.pdf", "rb") as file:
-            btn = st.download_button(
-                label="📊 Portfolio de Datos",
-                data=file,
-                file_name="portfolio_datos.pdf",
-                mime="application/pdf"
-            )
-
-    with col4:
-        with open("portfolio_diseno.pdf", "rb") as file:
-            btn = st.download_button(
-                label="🎨 Portfolio de Diseño",
-                data=file,
-                file_name="portfolio_diseno.pdf",
-                mime="application/pdf"
-            )
-
-        with open("cartas_recomendacion.pdf", "rb") as file:
+        with open("Carta_Recomendacion_Rut_Gonzalez_1pagina.pdf", "rb") as file:
             btn = st.download_button(
                 label="✉️ Cartas de Recomendación",
                 data=file,
-                file_name="cartas_recomendacion.pdf",
+                file_name="Carta_Recomendacion_Rut_Gonzalez_1pagina.pdf",
                 mime="application/pdf"
             )
