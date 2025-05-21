@@ -38,11 +38,11 @@ with st.container():
             )
 
     with col4:
-        with open("portfolio_diseño.pdf", "rb") as file:
+        with open("portfolio_diseno.pdf", "rb") as file:
             btn = st.download_button(
                 label="🎨 Portfolio de Diseño",
                 data=file,
-                file_name="portfolio_diseño.pdf",
+                file_name="portfolio_diseno.pdf",
                 mime="application/pdf"
             )
 
